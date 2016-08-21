@@ -12,8 +12,31 @@ p {
     font-size: 20px;
 }
 
+a:link, a:visited {
+    background-color: grey;
+    color: blue;
+    padding: 20px;
+    border-style: outset;
+    border width: 25px;
+    margin: 110px;
+    background-color: #778899
+}
+
+a.one:link, a.one:visited {
+    text-align: left;
+}
+
+a.two:link, a.two:visited {
+    text-align: center;
+}
+
+a.three:link, a.three:visited {
+    text-align: right;
+}
+
+
 div {
-    padding: 25px;
+    padding: 30px;
     border-style: solid;
     border-width: 25px;
     border-color: #808080;
@@ -23,8 +46,11 @@ div {
 }
 
 img {
-    max-width: 100%;
+    display: block;
+    max-width: 80%;
     height: auto;
+    margin: auto;
+    padding: 30px;
 }
 
 footer {
@@ -32,7 +58,7 @@ footer {
     color: #FFFFFF;
     font-style: normal;
     font-family: "Times New Roman", Times, serif;
-    font-size: 16px;
+    font-size: 20px;
     
 }
 
